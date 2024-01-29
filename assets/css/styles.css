@@ -1,0 +1,40 @@
+/* Font Size & Body */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+table {
+  font-family: "Poppins";
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #595959;
+}
+
+th {
+  background-color: #2947a9;
+  color: white;
+}
+
+td,
+th {
+  border-bottom: 1px solid #595959;
+  text-align: left;
+  padding: 8px;
+  color: white;
+}
+
+
+/* Transaction History */
+.transaction-history {
+  margin: 50px 10%;
+  overflow-x: auto;
+}
+
+.transaction-history button {
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: #2947a9;
+  color: #fff
+  cursor: pointer;
+}
+
